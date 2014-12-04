@@ -171,7 +171,7 @@ Code sample to get a HTML table from JSON:
 
 ```javascript
     var html = jsonToHTMLTable(input_json, 'vertical');
-	or
+	//or
 	var html = jsonToHTMLTable(input_json, 'horizontal');
 ```
 ##JSFiddle
