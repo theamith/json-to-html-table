@@ -26,7 +26,7 @@ function jsonToHTMLTable(parsedJson,headingType){
 			rows += "</tr>";
 		}
 
-		var horizontal_table= "<table>"+headersHtml+rows+"</table>";
+		var horizontal_table= "<table class=\"table table-striped table-bordered table-hover\">"+headersHtml+rows+"</table>";
 	return horizontal_table;
 	}
 	else if(headingType == "vertical"){
@@ -51,7 +51,7 @@ function jsonToHTMLTable(parsedJson,headingType){
 			rows += "</tr>";
 		}
 
-		var vertical_table= "<table>"+rows+"</table>";
+		var vertical_table= "<table class=\"table table-striped table-bordered table-hover\">"+rows+"</table>";
 	return vertical_table;
 	}
 }

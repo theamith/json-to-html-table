@@ -174,6 +174,9 @@ Code sample to get a HTML table from JSON:
 	or
 	var html = jsonToHTMLTable(input_json, 'horizontal');
 ```
+##JSFiddle
+
+http://jsfiddle.net/mkamithkumar/nu0pyhe9/embedded/result/
 
 ##Contributing
 
